@@ -36,8 +36,10 @@ h2 {
     display: flex;
     justify-content:space-evenly;
     flex-direction:row;
-    align-items: center;
+    justify-content: center;
+    gap: 10px;
     margin-left: 100px;
+
     
   }
 .ours {
