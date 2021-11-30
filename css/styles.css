@@ -1,14 +1,18 @@
 body {
     font-family:Arial, Helvetica, sans-serif
 }
-
-.name {
+.nav-bar a {
+    text-decoration: none;
     color:blue;
+}
+.name {
     display:flex;
     text-align: center;
     justify-content:center;
     justify-content:space-evenly;
-
+    list-style-type: none;
+    width: 300px;
+    margin: 0 auto;
 }
 
 h1 {
@@ -28,9 +32,23 @@ hr {
 h2 {
     font-size: 30px;
 }
-
-.image {
-    object-fit: contain;
+.image{ 
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction:row;
+    align-items: center;
+    margin-left: 100px;
     
-    justify-content: center;
+  }
+.ours {
+    width: 450px;;
+    height: 400px;;
 }
+.purpose {
+    margin: 20px auto 30px auto;
+    width: 40%;
+}
+ul li {
+    list-style: none;
+}  
+
