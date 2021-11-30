@@ -28,3 +28,9 @@ hr {
 h2 {
     font-size: 30px;
 }
+
+.image {
+    object-fit: contain;
+    
+    justify-content: center;
+}
